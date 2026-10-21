@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-21",
+  "lean_toolchain": "leanprover/lean4:v4.35.0",
+  "lean_commit": "eb6cafb7290e8bd5f2937522d8d804f58f02bafc",
+  "mathdb_page_id": 363118,
+  "jsp_id": null,
+  "eligibility_inquiry": "https://github.com/TheJustinSunPrize/awards/issues/5124",
+  "source_publication_authorized": true,
+  "earliest_formalization_priority_confirmed": false,
+  "sha256": {
+    "RazReimer.lean": "a47a750e9e6964d3a6104246c992ba1a99c76e4429adb2c713d02138e86be155",
+    "RazReimerPredicates.lean": "c2c92a7d7fa418c6c2a6d7f314a0d77d1691199a798f036989631fb1cc11bf71",
+    "Audit.lean": "23894e20e3469692e13d71da10bce7882cc7b318a9a4bbcc8ae696232fbadd7d",
+    "lakefile.toml": "74a95433a17acfd938bec138a34110526d135e0ed27ca3ab0e7fcfd38aa678e1",
+    "lean-toolchain": "27e73059e3a4d568450f74e39c2f79676c4f8d41373fff15170690f124e3bacd",
+    "lake-manifest.json": "ec51f17419a4395b07912f990f13fc04957514d14023414551da19ce87e3e5eb",
+    "README.txt": "b3ac5aaa33b9576a2d9217aa98009a4f879a94679f803d8a4e93a199fd110cb2",
+    "MAPPING.txt": "0156aa4367cca120c0457c7b91c3c6c81bfc737b8ed35f48f6966cbe6527b170",
+    "ATTRIBUTION.txt": "145b8286b30fc5cc13769686f489eabff7f24bc3f076b97d7955462ef9650c6f",
+    "reproduce.py": "bac1df984de5a8b022982e3f08e9dd525ec5d4b8cea21ae274119e362f234f04",
+    "verify_sets.py": "ddefd7c48e02cbe6c48a7b2d76309cf042c4f5071fdd8610967a4c13319fac3c",
+    ".gitignore": "eb4326955f5fc10d74482b0c79751751849c0c6a698b931d52e2c2dcdb55eadf"
+  },
+  "source_publication_authorized_on": "2026-10-21",
+  "source_repository": "https://github.com/renxuhang/raz-reimer-lean"
+}

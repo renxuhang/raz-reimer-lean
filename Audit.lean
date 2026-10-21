@@ -1,0 +1,15 @@
+import RazReimerPredicates
+
+#print axioms RazReimer.counterexample
+#print axioms RazReimer.not_reimerStrengthening
+#print axioms RazReimerPredicates.every_predicate_represented
+#print axioms RazReimerPredicates.shared_index_bijective
+#print axioms RazReimerPredicates.condition_transfer
+#print axioms RazReimerPredicates.condition_reflection
+#print axioms RazReimerPredicates.condition_iff
+#print axioms RazReimerPredicates.frequency_transfer
+#print axioms RazReimerPredicates.A_nontrivial
+#print axioms RazReimerPredicates.A_frequencies
+#print axioms RazReimerPredicates.A_not_unionClosed
+#print axioms RazReimerPredicates.counterexample
+#print axioms RazReimerPredicates.not_strengthening

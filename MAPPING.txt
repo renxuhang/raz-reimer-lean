@@ -1,0 +1,53 @@
+Statement correspondence and limits
+
+The mathematical target is Conjecture 3 in Raz 2017, also stated as Conjecture 2
+in Lu–Raz 2024, not the original union-closed sets conjecture. The public MathDB
+page 363118 describes this same auxiliary strengthening.
+
+The statement-facing file uses arbitrary predicates Fin n -> Prop as subsets.
+Included means pointwise inclusion. UpwardClosed quantifies over every such
+predicate, rather than only a selected list of encoded candidates. Fin m is a
+finite enumeration of the member sets; injectivity makes its length the actual
+family size and prevents counting duplicates as separate sets. A second
+injective enumeration has the same index set, and shared_index_bijective proves
+that the common-index pairing is a genuine bijection between the two ranges.
+
+IntervalsDisjoint quantifies over every possible intermediate subset, with its
+ordinary four inclusion hypotheses. ReimerCondition combines that condition,
+the filter/upward-closure condition, injectivity and containment of each set
+in its image. The finite count frequency counts precisely the indices whose
+member contains the selected element. An abundant element has 2*frequency >= m.
+
+Nontrivial requires some member to contain an element. Together with m > 0 and
+injectivity, this excludes empty-family and all-empty-set degeneracies. The
+counterexample supplies this condition explicitly. Its failure of abundance
+does not exploit a degenerate universe or a zero-size family.
+
+decode converts bit masks to predicates. every_predicate_represented proves
+that every predicate is represented. decode_injective proves extensionality.
+condition_iff proves both directions of equivalence between the encoded
+condition and the arbitrary-predicate condition. frequency_transfer proves
+that their counts agree, including the compatibility of classical and
+computable decisions. This prevents a proof only about an unexplained encoding
+subclass from being presented as the full set-family counterexample.
+
+Concrete data: n=8, m=11. A_nontrivial, A_injective and A_condition establish the
+hypotheses. A_frequencies establishes exactly 5 occurrences for every element.
+Because 2*5 < 11, counterexample and not_strengthening refute the universal
+nontrivial-family claim. A_not_unionClosed separately checks that the family
+is not closed under unions; {8} and {1} are members, but {1,8} is not.
+The ground set Fin 8 uses labels 0 through 7, corresponding to paper labels
+1 through 8. It is an index relabeling, not a different geometric or infinite
+setting. Subset representation, all 11 members and counts are explicit.
+
+The package does not prove minimality of the example, Reimer's average-size
+theorem, Lu–Raz's parameterized construction or their closure-count conjecture.
+It makes no claim of mathematical novelty, earliest valid formalization or
+award entitlement. Its audit uses Lean's normal kernel and standard axioms;
+it is not an independent checker or a formal semantic comparison against an
+external verifier's separately authored target.
+
+Sources
+https://www.combinatorics.org/ojs/index.php/eljc/article/download/v24i3p53/pdf/
+https://arxiv.org/html/2405.10639v2 (Definition 2 and Conjecture 2)
+https://mathdb.com/p/363118/gowers-reimer-conditions-abundance-conjecture

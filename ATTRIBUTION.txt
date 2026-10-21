@@ -1,0 +1,20 @@
+Mathematical construction and discovery: Abigail Raz (2017).
+The 2024 Lu–Raz paper is used only as a secondary statement-location reference
+to the same mathematical strengthening; no 2024 construction is proved here.
+
+The Lean implementation, arbitrary-predicate bridge, reproduction scripts
+and review notes were prepared through Codex in a research conversation
+directed by GitHub user renxuhang. The account owner authorized source
+publication and the separate eligibility inquiry #5124. AI assistance is
+disclosed here; no claim of unaided human proof development is made.
+No prize-recipient identity or contribution claim has been adjudicated.
+
+The exact mathematical sets were transcribed from Raz's public paper. They were
+not discovered by the present implementation. Lean/Std are external dependencies
+and retain their upstream authorship and licenses; no binaries or source copies
+of those dependencies are included. There is no imported third-party Lean
+project beyond the Lean toolchain's bundled Std library.
+
+This document records provenance. It makes no mathematical-discovery,
+sole-authorship, first-priority or award-entitlement claim. It grants no
+separate reuse license.

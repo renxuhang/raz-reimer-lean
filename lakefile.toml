@@ -1,0 +1,9 @@
+name = "raz-reimer"
+version = "0.1.0"
+defaultTargets = ["RazReimer", "RazReimerPredicates"]
+
+[[lean_lib]]
+name = "RazReimer"
+
+[[lean_lib]]
+name = "RazReimerPredicates"
